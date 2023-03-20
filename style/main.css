@@ -3,10 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: 'HelveticaNeue LT 55 Roman';
+    src: url('HelveticaNeueLT-Roman.woff2') format('woff2'),
+        url('HelveticaNeueLT-Roman.woff') format('woff'),
+        url('HelveticaNeueLT-Roman.ttf') format('truetype');
+}
 body{
     background-color:#0A22F4 ;
 }
-   
+  
 .container{
     justify-content: space-between;
     display: flex;
@@ -20,9 +26,16 @@ body{
 h1{
     font-size: 32px;
     margin-bottom: 30px;
+    @font-face {
+        font-family: 'HelveticaNeueLT-Roman.woff2';
+        src: url();
+    }
 }
 .contact p{
-    display: inline-block;
+   @font-face {
+    font-family: 'HelveticaNeue LT 55 Roman';
+    src: url();
+   }
 }
 .text{
     width: 463px;
